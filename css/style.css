@@ -1,7 +1,60 @@
 * {
     box-sizing: border-box; 
   }
-  
-  .grid-container {
-    display: grid;
+  /* header {
+    background-color:  #323540;
+    max-height: 75px;
+    padding: 20px;
+    color: lightgrey;
+  } */
+
+  .navbar {
+    background-color: lightgrey!important;
   }
+
+  .navbar-brand {
+    color: #185164 !important;
+  }
+
+  .nav-link {
+    color: #185164 !important;
+  }
+  
+  .navbarNav {
+    color: white !important;
+  }
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .display-4 {
+    display: flex;
+    color: #185164;
+  }
+
+  /* .lead {
+    color: white#185164;
+  } */
+
+  .content-skills {
+    background-color: lightblue;
+    margin: 0;
+  }
+
+  .sectionHeadingSkills {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  a:hover {
+    background-color: lightblue;
+  }
+
+  button:hover {
+    background-color: lightblue;
+  }
+  /* navbar-nav {
+    text-align: center;
+  } */
